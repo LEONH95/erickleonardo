@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Erick Leonardo Hipólito</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="My Personal Web Page" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Erick Leonardo Hipólito Jurado" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;800&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+
+	<body>
+		<nav class="navbar scrolled">
+			<a class="nav-brand">Erick Hipólito</a>
+			<div class="menu-btn">
+				<div class="menu-btn__burger"></div>
+			</div>
+			<div class="navbar-nav">
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link active" href="#inicio" name="inicio">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#sobre-mi" name="sobre-mi">Sobre mí</a></li>
+					<li class="nav-item"><a class="nav-link" href="#habilidades" name="habilidades">Habilidades</a></li>
+					<li class="nav-item">
+						<a class="nav-link" href="#conocimientos" name="conocimientos">Conocimientos</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#portafolio" name="portafolio">Portafolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contacto" name="contacto">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<header class="masthead" id="inicio" name="inicio">
+			<h1 class="masthead-title">Desarrollador Full-Stack</h1>
+			<h2 class="masthead-description">Especialista en el desarrollo de Aplicaciones JAVA Web.</h2>
+			<a href="#footer" name="footer"> <button class="masthead-button">Contactame</button></a>
+
+			<a class="sticky-whatsapp" href="http://wa.link/zln91z" target="_blank">
+				<img src="assets/whatsapp.svg" alt="" />
+			</a>
+		</header>
+
+		<section id="sobre-mi" name="sobre-mi">
+			<h1>Sobre Mí</h1>
+			<div class="about">
+				<div class="about-images">
+					<img class="about-photo" src="assets/yo.jpg" alt="Yo" />
+				</div>
+
+				<div class="about-text burbuja">
+					<blockquote class="about-description">
+						<p>
+							"Soy desarrollador Full-Stack especializado en JAVA Web junto con Angular. Me apasiona
+							aprender sobre nuevas tecnologías las cuales revolucionan el mundo de la informática y
+							aplicar estas tecnologías a desarrollos de aplicaciones Web tanto Backend como Frontend"
+						</p>
+					</blockquote>
+					<div class="about-data">
+						<p>Erick Leonardo Hipólito Jurado</p>
+						<p>Desarrollador Java Web Full Stack</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="habilidades" name="habilidades">
+			<h1>Habilidades</h1>
+			<div class="chart-wrapper">
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="85, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">85%</text>
+					</svg>
+					<div class="text-chart">
+						<p>UX/UI Design</p>
+					</div>
+				</div>
+
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="80, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">80%</text>
+					</svg>
+					<div class="text-chart">
+						<p>SQL Database</p>
+					</div>
+				</div>
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="90, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">90%</text>
+					</svg>
+					<div class="text-chart">
+						<p>Server</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="chart-wrapper">
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="90, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">90%</text>
+					</svg>
+					<div class="text-chart">
+						<p>POO Programming Languages</p>
+					</div>
+				</div>
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="80, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">80%</text>
+					</svg>
+					<div class="text-chart">
+						<p>Version Control System</p>
+					</div>
+				</div>
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart blue">
+						<defs>
+							<linearGradient id="header-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="var(--light-blue)" />
+								<stop offset="50%" stop-color="var(--strong-blue)" />
+								<stop offset="100%" stop-color="var(--dark-blue)" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="90, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">90%</text>
+					</svg>
+					<div class="text-chart">
+						<p>Working with API(Rest)</p>
+					</div>
+				</div>
+			</div>
+
+			<h1>Idiomas</h1>
+			<div class="chart-wrapper">
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart green">
+						<defs>
+							<linearGradient id="green-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="greenyellow" />
+								<stop offset="50%" stop-color="var(--green)" />
+								<stop offset="100%" stop-color="green" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="100, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">100%</text>
+					</svg>
+					<div class="text-chart">
+						<p>Español</p>
+					</div>
+				</div>
+
+				<div class="single-chart">
+					<svg viewBox="0 0 36 36" class="circular-chart green">
+						<defs>
+							<linearGradient id="green-shape-gradient" x2="0.35" y2="1">
+								<stop offset="0%" stop-color="greenyellow" />
+								<stop offset="50%" stop-color="var(--green)" />
+								<stop offset="100%" stop-color="green" />
+							</linearGradient>
+						</defs>
+
+						<path
+							class="circle-bg"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path
+							class="circle"
+							stroke-dasharray="50, 100"
+							d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<text x="18" y="20.35" class="percentage">50%</text>
+					</svg>
+					<div class="text-chart">
+						<p>Inglés</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="conocimientos" name="conocimientos">
+			<h1>Conocimientos</h1>
+			<div class="card-wrapper">
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/java.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Java</h2>
+						<h3 class="card-def">Lenguaje de Programación</h3>
+						<p class="card-desc">
+							Manejo de Java SE Versiones 7, 8 y 11. Asi mismo conocimiento de JAVA EE para la realización
+							aplicaciones Web.
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/spring.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Spring Framework</h2>
+						<h3 class="card-def">Framework Web (Back End)</h3>
+						<p class="card-desc">
+							Manejo de Framework para la creación de servicios web Restful, adicionalmente uso de
+							Hibernate y JPA.
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/sql.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">My SQL & SQL SERVER</h2>
+						<h3 class="card-def">Bases de Datos</h3>
+						<p class="card-desc">
+							Conocimientos solidos para el acceso y manipulación de Bases de Datos, Operaciones Crud,
+							Querys, DML.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-wrapper">
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/html5.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">HTML5</h2>
+						<h3 class="card-def">Marcado de Hypertextos</h3>
+						<p class="card-desc">Conocimiento para la maquetación de paginas Web.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/css3.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">CSS3</h2>
+						<h3 class="card-def">Hoja de Estilo en Cascada</h3>
+						<p class="card-desc">
+							Conocimiento para estilos de paginas Web, adicionalmente conocimiento en preprocesador SASS.
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/javascript.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Javascript</h2>
+						<h3 class="card-def">Lenguaje de Programación</h3>
+						<p class="card-desc">
+							Conocimiento para el desarrollo de paginas Web dinamicas con Javascript. Adicionalmente uso
+							de AJAX para peticiones.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-wrapper">
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/angular.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Angular</h2>
+						<h3 class="card-def">Framework Web (Front End)</h3>
+						<p class="card-desc">
+							Uso de Framewor SPA para la creación de aplicaciones Web en la capa visual. Uso de
+							Typescript, Redux, Ecma Script 6, NPM, Material Design y Bootstrap.
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/bootstrap.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Bootstrap</h2>
+						<h3 class="card-def">Librería de Estilos</h3>
+						<p class="card-desc">Libreria de Estilos para maquetar HTML5 y CSS3.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-image">
+						<img src="assets/jquery.png" alt="java-logo" />
+					</div>
+					<div class="card-content">
+						<h2 class="card-title">Jquery</h2>
+						<h3 class="card-def">Librería para Javascript</h3>
+						<p class="card-desc">
+							Manejo de librería de Jquery para la creación de codigo JavaScript simplificado.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="portafolio" name="portafolio">
+			<h1>Portafolio</h1>
+			<div class="portfolio-wrapper">
+				<div class="portfolio">
+					<div class="portfolio-images">
+						<img src="assets/lasillatours.png" alt="" />
+					</div>
+					<div class="portfolio-content">
+						<h3 class="content-name">La Silla Tours</h3>
+						<h4 class="content-def">Sistema de administración</h4>
+						<p class="content-des">
+							Desarrollo del modulo de vuelos y clientes de acuerdo a documento tecnico. Script de Base de
+							Datos, Desarrollo del Backend y FrontEnd.
+						</p>
+					</div>
+				</div>
+				<div class="portfolio">
+					<div class="portfolio-images">
+						<img src="assets/odessa.jpg" alt="" />
+					</div>
+					<div class="portfolio-content">
+						<h3 class="content-name">Odessa</h3>
+						<h4 class="content-def">Sistema de administración</h4>
+						<p class="content-des">
+							Desarrollo del modulo de usuarios y clientes de acuerdo a documento tecnico. Script de Base
+							de Datos, Desarrollo del Backend y FrontEnd.
+						</p>
+					</div>
+				</div>
+
+				<div class="portfolio">
+					<div class="portfolio-images">
+						<img src="assets/content.png" alt="" />
+					</div>
+					<div class="portfolio-content">
+						<h3 class="content-name">Content</h3>
+						<h4 class="content-def">Sistema de administración</h4>
+						<p class="content-des">
+							Apoyo en el desarrollo total del Front End, Inicio de Sesión, Gestión de Usuarios, Modulos
+							Contables, Dashboard, Graficos Dinamicos, Modulos de Prespuesto.
+						</p>
+					</div>
+				</div>
+
+				<div class="portfolio">
+					<div class="portfolio-images">
+						<img src="assets/midia.png" alt="" />
+					</div>
+					<div class="portfolio-content">
+						<h3 class="content-name">Mi Día</h3>
+						<h4 class="content-def">Sistema de administración RH</h4>
+						<p class="content-des">
+							Apoyo en el desarrollo total del Front End, Inicio de Sesión, Gestión de Usuarios, Registro,
+							Dashboard, Administración, Configuración.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<section id="contacto" name="contacto">
+				<h1>Contacto</h1>
+				<form id="javascript_form">
+					<div class="form-group">
+						<label for="subject">Asunto</label>
+						<input type="text" id="subject" name="subject" />
+					</div>
+					<div class="form-group">
+						<label for="name">Nombre</label>
+						<input type="text" id="name" name="name" />
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" />
+					</div>
+					<div class="form-group">
+						<label for="coments">Comentario</label>
+						<textarea name="coments" id="coments" cols="30" rows="10"></textarea>
+					</div>
+					<input id="js_send" type="submit" value="Enviar" />
+				</form>
+
+				<p>Copyright &copy; Erick Hipólito</p>
+			</section>
+		</footer>
+	</body>
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/phostMail.js"></script>
+</html>
